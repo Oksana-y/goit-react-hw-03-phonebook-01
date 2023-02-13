@@ -20,6 +20,7 @@ const ContactsList = ({ contacts, onDeleteBtn }) => {
   ));
 
   return <ul className={css.list}>{contact}</ul>;
+  
 };
 
 ContactsList.propTypes = {
